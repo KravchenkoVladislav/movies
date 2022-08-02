@@ -1,0 +1,30 @@
+.moviesItem {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: #333333;
+    .movie {
+        .img {
+            width: 180px;
+            height: 260px;
+            border-radius: 20px;
+        }
+        .name {
+            margin-top: 15px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .title {
+            font-weight: 400;
+            font-size: 13px;
+            .country {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

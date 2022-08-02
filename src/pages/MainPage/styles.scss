@@ -1,0 +1,37 @@
+.mainPage {
+    h1 {
+        color: #E59C9C;
+        font-weight: 700;
+        font-size: 60px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+    }
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-top: 0px;
+        width: 615px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .movies {
+        background-color: white;
+        width: 100%;
+        height: 862px;
+        margin-bottom: 100px;
+        border-radius: 20px;
+        .noResponse {
+            font-weight: 700;
+            font-size: 50px;
+            color: #333;
+            display: flex;
+            padding-top: 100px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
